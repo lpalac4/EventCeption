@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lpalac4.eventplanner"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.lpalac4.eventstart.LauncherActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventstart.LoginActivity"
+            android:label="@string/title_activity_login_" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventstart.MainMenuActivity"
+            android:label="@string/title_activity_main_menu" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventplanner.EventsQueryActivity"
+            android:label="@string/title_activity_events_view" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventplanner.EventsDetailsActivity"
+            android:label="@string/title_activity_events_details" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventplanner.EventCreationActivity"
+            android:label="@string/title_activity_event_creation" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventplanner.BYOSysQueryActivity"
+            android:label="@string/title_activity_byosys_query" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventplanner.BYOSysCategoryCreationActivity"
+            android:label="@string/title_activity_byosys_creation" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventplanner.BYOSysItemCreationActivity"
+            android:label="@string/title_activity_byosys_item_creation" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventweather.WeatherQueryActivity"
+            android:label="@string/title_activity_weather_query" >
+        </activity>
+        <activity
+            android:name="com.lpalac4.eventplanner.JukeBoxActivity"
+            android:label="@string/title_activity_juke_box" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/hint_byosys_categoryname" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/eventquery_resultsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Category" />
+
+        <TextView
+            android:id="@+id/eventsscrollview_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registered Categories"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ScrollView
+            android:id="@+id/eventsquery_searchscrollview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

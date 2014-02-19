@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/eventsscrollview_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.67"
+            android:text="Name/Details" />
+
+        <TextView
+            android:id="@+id/eventsscrollview_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quantity" />
+
+        <TextView
+            android:id="@+id/eventsscrollview_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Multiples allowed" />
+
+        <TextView
+            android:id="@+id/jukebox_durationtxt"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.99"
+            android:text="Registered Donator(s)" />
+
+        <Button
+            android:id="@+id/eventquery_resultsbtn"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.44"
+            android:text="Volunteer for this" />
+    </LinearLayout>
+
+</LinearLayout>

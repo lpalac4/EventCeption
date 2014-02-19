@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/jukebox_nametxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" by: " />
+
+        <TextView
+            android:id="@+id/jukebox_artisttxt"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Artist" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/jukebox_durationtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration :  " />
+
+        <Chronometer
+            android:id="@+id/jukebox_chronometer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chronometer" />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/jukebox_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/jukebox_playpausebtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Play/Pause" />
+
+        <Button
+            android:id="@+id/jukebox_nextsongbtn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Next Song" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/jukebox_scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ScrollView>
+
+</LinearLayout>
