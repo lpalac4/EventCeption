@@ -4,6 +4,11 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
+/**
+ * Activity that will query data off of the server. WIP
+ * @author Luis
+ *
+ */
 public class BYOSysQueryActivity extends Activity {
 
 	@Override

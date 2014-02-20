@@ -19,6 +19,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+/**
+ * Launcher activity will transition to main activity after a timer runs out.
+ * @author Luis Palacios 
+ */
 public class LauncherActivity extends Activity {
 	private static final int STARTTIMER = 3000;
 	public static int windowHeight;

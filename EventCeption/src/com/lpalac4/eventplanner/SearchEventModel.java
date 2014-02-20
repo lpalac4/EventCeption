@@ -1,5 +1,10 @@
 package com.lpalac4.eventplanner;
 
+/**
+ * Searching for events on the Eventful api requires this modeling for the data I will use.
+ * @author Luis
+ *
+ */
 public class SearchEventModel {
 	public String eventid;
 	public String name;

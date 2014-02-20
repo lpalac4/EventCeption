@@ -12,6 +12,11 @@ import org.json.JSONObject;
 
 import android.util.Log;
 
+/**
+ * Activity which connects to the Eventful API via GET request.
+ * @author Luis
+ *
+ */
 public class EventAPI {
 
 	private static final String key = "JsPjvNG4mHM8GBBW";

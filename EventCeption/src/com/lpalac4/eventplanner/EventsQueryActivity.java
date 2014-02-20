@@ -13,6 +13,11 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 
+/**
+ * Event activity that displays the data to the user.
+ * @author Luis
+ *
+ */
 public class EventsQueryActivity extends Activity {
 
 	public static EventAPI eventQuery;

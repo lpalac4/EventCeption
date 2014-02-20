@@ -8,6 +8,11 @@ import android.widget.LinearLayout;
 import android.widget.TableLayout.LayoutParams;
 import android.widget.TextView;
 
+/**
+ * Custome View to hold data for an event to be displayed in a scrollbar.
+ * @author Luis
+ *
+ */
 public class EventsView extends View {
 
 	public SearchEventModel model;

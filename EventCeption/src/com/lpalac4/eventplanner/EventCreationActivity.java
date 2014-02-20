@@ -7,6 +7,11 @@ import android.view.Menu;
 import android.view.Window;
 import android.view.WindowManager;
 
+/**
+ * Not yet implemented.
+ * @author Luis
+ *
+ */
 public class EventCreationActivity extends Activity {
 
 	@Override

@@ -7,6 +7,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TableLayout.LayoutParams;
 
+/**
+ * Custom view class that will display song information from the server query results.
+ * @author Luis
+ *
+ */
 public class JukeBoxView extends View {
 	
 	public JukeBoxModel model;

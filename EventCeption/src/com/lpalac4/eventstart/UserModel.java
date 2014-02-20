@@ -1,5 +1,8 @@
 package com.lpalac4.eventstart;
 
+/*
+ * Model used for user accounts;
+ */
 public class UserModel {
 
 	private String username;

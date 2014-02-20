@@ -41,6 +41,11 @@ import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
 
+/**
+ * Jukebox activity allows users to play their music on their phone and vote on the next song to play.
+ * @author Luis
+ *
+ */
 public class JukeBoxActivity extends Activity {
 
 	private ScrollView searchLayout;

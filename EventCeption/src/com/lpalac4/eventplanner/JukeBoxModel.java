@@ -1,5 +1,10 @@
 package com.lpalac4.eventplanner;
 
+/**
+ * Jukebox model to be represented in the database.
+ * @author Luis
+ *
+ */
 public class JukeBoxModel {
 
 	public String eventid;

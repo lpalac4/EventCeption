@@ -28,6 +28,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TextView.OnEditorActionListener;
 
+/**
+ * Main activity used for the application.  Allows a user to enter their query into two different edit text boxes and will check if a WWO responds
+ * with valid information before it transitions to the results activity.
+ * @author Luis Palacios
+ */
 public class MainMenuActivity extends Activity {
 
 	// Final layout of activity.

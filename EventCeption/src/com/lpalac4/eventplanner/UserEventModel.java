@@ -2,6 +2,11 @@ package com.lpalac4.eventplanner;
 
 import java.util.ArrayList;
 
+/**
+ * User created events model - not yet implemented.
+ * @author Luis
+ *
+ */
 public class UserEventModel {
 
 	public int eventId;

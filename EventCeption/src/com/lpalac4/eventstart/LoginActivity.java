@@ -31,6 +31,10 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 
+/*
+ * Login activity that verifies credentials using a HTTP POST request to my test server
+ * 
+ */
 public class LoginActivity extends Activity {
 
 	private Thread authThread;

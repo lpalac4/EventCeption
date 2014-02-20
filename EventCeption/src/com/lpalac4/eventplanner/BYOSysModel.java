@@ -1,5 +1,10 @@
 package com.lpalac4.eventplanner;
 
+/**
+ * Model for the Bring Your Own system.
+ * @author Luis
+ *
+ */
 public class BYOSysModel {
 
 	private int eventId;
